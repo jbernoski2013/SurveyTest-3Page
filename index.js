@@ -68,7 +68,7 @@ window.survey = new Survey.Model(json);
 survey
 .onComplete
 .add(function (result) {
-    document.location("results.html")
+    document.location = ("results.html")
        // .textContent = "Result JSON:\n" + JSON.stringify(result.data, null, 3);
 });
 
