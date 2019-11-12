@@ -69,7 +69,7 @@ survey
 .onComplete
 .add(function (result) {
     document
-        .querySelector('#surveyResult')
+        .location("resultsPage.html")
         .textContent = "Result JSON:\n" + JSON.stringify(result.data, null, 3);
 });
 
