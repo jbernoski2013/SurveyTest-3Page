@@ -70,7 +70,7 @@ survey
 .add(function (result) {
     document
         .location("resultsPage.html")
-        .textContent = "Result JSON:\n" + JSON.stringify(result.data, null, 3);
+       // .textContent = "Result JSON:\n" + JSON.stringify(result.data, null, 3);
 });
 
 $("#surveyElement").Survey({model: survey});
